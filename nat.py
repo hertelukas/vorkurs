@@ -104,12 +104,12 @@ def examples():
     k = n2 #2
 
     #solution1 = pretty(exp(m, exp(n, k))) #Dauert sehr, sehr lange
-    #solution2 = pretty(exp(exp(m, n), k))
-    solution3 = pretty(exp(m, mul(n, k))) #Auch sehr langsam
+    solution2 = pretty(exp(exp(m, n), k))
+    #solution3 = pretty(exp(m, mul(n, k))) #Auch sehr langsam
 
     #print("exp(%s,exp(%s, %s)) = %s" %(pretty(m), pretty(n), pretty(k), solution1))
-    #print("exp(exp(%s, %s),%s) = %s" %(pretty(m), pretty(n), pretty(k), solution2))
-    print("exp(%s, mul(%s, %s)) = %s" %(pretty(m), pretty(n), pretty(k), solution3))
+    print("exp(exp(%s, %s),%s) = %s" %(pretty(m), pretty(n), pretty(k), solution2))
+    #print("exp(%s, mul(%s, %s)) = %s" %(pretty(m), pretty(n), pretty(k), solution3))
 
     return
 
