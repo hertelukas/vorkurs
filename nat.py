@@ -65,6 +65,8 @@ def mul(m, n, verbose=' '):
 
     return res
 
+#Aufgabe 2.5, Exponentialfunktion nur mit Multiplikation
+# n ist der Exponent, verbose kann auf false gesetzt werden um nicht jeden Schritt gezeigt zu bekommen 
 def exp(m, n, verbose=' '):
     assert m in Nat and n in Nat
 
